@@ -1,0 +1,274 @@
+<!-- Created by David Kim, 1999 Baker Laboratory University of Washington Department of Biochemistry -->
+<html>
+<head>
+<title>The Baker Laboratory Homepage, University of Washington Department of Biochemistry</title>
+
+<META NAME="description" CONTENT="The Baker Laboratory Homepage Main
+Frame: Our laboratory is taking a combined molecular
+biological, biophyscial and computational approach to the protein folding
+problem, and applying the insights we are gaining from these
+studies to develop methods for interpreting genome sequence
+information and creating proteins with new folds and functions.
+We are located in the Biochemistry Department at the University of
+Washington in Seattle.">
+<META NAME="keywords" CONTENT="Baker Laboratory, David Baker, Biochemistry
+Department, University of Washington, Protein Folding, Protein
+Structure, Protein Design, ROSETTA, I-sites, protein L, sh3">  
+
+<LINK rel="stylesheet" type="text/css" href="style1.css" title="style">
+</head> 
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Hide script from old browsers
+function startStatusBar() {
+	var msg = "Welcome to the Baker Lab Homepage!!! (University of Washington Department of Biochemistry)"
+	window.status = msg
+}
+// -->
+</SCRIPT>
+
+<body background="images/protl_sh3_background1.jpg" text="000000" link="771177" alink="red" vlink="771177" onLoad="startStatusBar()">
+
+<table border=0 width=100% cellpadding=0>
+	<td align=center><font size=2 face=helvetica, arial, sans-serif>
+		<image src="images/baker_title.gif" alt="The Baker Laboratory">
+		<br><b><a href="http://www.washington.edu" target=_top>University of Washington</a></b>
+		<br><b><a href="http://depts.washington.edu/biowww/" target=_top>Department of Biochemistry</a></b>
+		<br><b>J Wing, Health Sciences Building</b>
+		<br><b>Box 357350</b>  
+		<br><b>Seattle, WA 98195</b><br>
+		<br><b>Principal Investigator: <a href="http://depts.washington.edu/biowww/baker.html#baker" title="Information about David Baker, from the University of Washington Department of Biochemistry Home Page" target="_top">David Baker</a></b>
+		<br><b>Email:<a href=mailto:dabaker@u.washington.edu>dabaker@u.washington.edu</a></b>
+		<br><b>Office: J567 (206) 543-1295 </b>
+		<br><b>Fax: (206) 685-1792</b>
+		</font>
+	</td>
+	<td align=center>
+	<a href="highlightsCASP3.html" title="Link to more information about CASP3 from the Baker Lab Highlights"><img src="marA.gif" alt="MarA ab initio folding results from CASP 3" border=0></a>
+	</td>
+</table>
+
+<hr size=5>
+<center><b><font size=4 face=helvetica, arial, sans-serif>W</font><font size=2 face=helvetica, arial, sans-serif>elcome to the Baker Laboratory Homepage. 
+<br>
+For information about our research go to our <a href="overview.html">Overview</a> and <a href="highlights.html">Highlights</a>.
+</font></b>
+<br>
+<font size=2 face=helvetica, arial, sans-serif>
+<b>Last updated 
+Mon Jan 24 14:32:45 PST 2000
+</b></font>
+<br>
+<br>
+
+<table border=0 align=center cellpadding=10>
+	<td valign=center>
+		<img src="images/new.gif" alt="New!" border=0>
+	</td>
+	<td valign=center>
+		<center>
+		<a href="decoytest.html" target="main" title="Pick the structure made by ROSETTA that is closest to the native structure.">
+		<font size=2 face=helvetica, arial, sans-serif><b> Try our decoy structure test.</b></font></a><br>
+		<a href="native_test/nativetest.html" target="main" title="Pick the structure made by ROSETTA that is the native structure.">
+		<font size=2 face=helvetica, arial, sans-serif><b> Try our native structure identification test.</b></font></a>
+		</center>
+	</td>
+	<td valign=center>
+		<img src="images/new.gif" alt="New!" border=0></td>
+</table>
+</center> 
+<br>
+<p><center><b><font face=helvetica, arial, sans-serif> 
+<a href="overview.html" class="navlink" title="Lab Overview">Overview</a> | 
+<a href="highlights.html" class="navlink" title="Recent Research Highlights">Highlights</a> | 
+<a href="publications.html" class="navlink" title="Publications and Abstracts">Publications</a> | 
+<a href="members.html" class="navlink" title="Members of the Baker Lab">Members</a> | 
+<a href="labinformation.html" class="navlink" title="Information for Baker Lab members">Information</a> |
+<a href="newlinks.html"  class="navlink" title="Useful Links">Links</a>
+</font></b>
+</center>
+
+<p><center>
+<SCRIPT>
+<!-- hide this script from old browsers
+// add a pull down menu to submit searches to all listed sites below
+var QUERY_STRING = "find+these+words";
+function MakeArray(n) {
+   for (var i = 1; i <= n; i++) {
+     this[i] = 0;
+   }
+   this.maxlen = n;
+   this.len = 0;
+   return this;
+}
+var engs = new MakeArray(30); //add total number of search sites
+function find_substring(query1, query2) {
+   var i, query1n = query1.length, query2n = query2.length;
+   for (i=0; i<=query2n-query1n; i++) {
+      if (query1 == query2.substring(i,i+query1n))
+        return i;
+   }
+   return false;
+}
+function Engine(name, opts, home, search) {
+  var words = find_substring(QUERY_STRING, search);
+  this.name = name;  this.opts = opts;  this.home = home;
+  this.prequery = search.substring(0,words);
+  this.postquery= search.substring(words+QUERY_STRING.length,search.length);
+}
+function Add(name, opts, home, search) {
+  engs.len++;
+  if (engs.len <= engs.maxlen) {
+    engs[engs.len] = new Engine(name, opts, home, search)
+  }
+}
+Add("The Baker Lab", "SELECTED",
+        "http://depts.washington.edu/bakerpg/cgi-bin/search.cgi",
+        "http://depts.washington.edu/bakerpg/cgi-bin/search.cgi?terms=find+these+words"
+);
+Add("Publications", "HOME",
+        "http://depts.washington.edu/bakerpg/cgi-bin/publicationsearch.cgi",
+        "http://depts.washington.edu/bakerpg/cgi-bin/publicationsearch.cgi?terms=find+these+words"
+);
+Add("==============", "BLANK",
+        "",
+        ""
+);
+Add("About.com", "",
+        "http://home.about.com/",
+        "http://search.about.com/fullsearch.htm?terms=find+these+words"
+);
+Add("AltaVista", "",
+        "http://www.altavista.com",
+        "http://www.altavista.com/cgi-bin/query?q=find+these+words&pg=q&fmt=.&what=web"
+);
+Add("Deja.com", "",
+        "http://www.deja.com/",
+        "http://www.deja.com/dnquery.xp?QRY=find+these+words"
+);
+Add("Entrez -  PubMed", "",
+        "http://www.ncbi.nlm.nih.gov/entrez/",
+        "http://www.ncbi.nlm.nih.gov:80/entrez/query.fcgi?SUBMIT=y&db=PubMed&term=find+these+words"
+);
+Add("Excite", "",
+        "http://www.excite.com/",
+        "http://search.excite.com/search.gw?search=find+these+words&lang=en"
+);
+Add("GoTo.com", "",
+        "http://goto.com/",
+        "http://goto.com/d/search/?type=home&Keywords=find+these+words"
+);
+Add("Google", "",
+        "http://www.google.com/",
+        "http://www.google.com/search?q=find+these+words"
+);
+Add("Health Links (UW)", "",
+        "http://healthlinks.washington.edu/",
+	"http://healthlinks.washington.edu/cgi-bin/texis/webinator/search/?proximity=page&suffixproc=min&arg=find+these+words"
+);
+Add("HotBot", "",
+        "http://hotbot.lycos.com/",
+        "http://hotbot.lycos.com/?MT=find+these+words"
+);
+Add("Infoseek", "",
+        "http://infoseek.go.com/",
+        "http://infoseek.go.com/Titles?qt=find+these+words"
+);
+Add("LookSmart", "",
+        "http://www.looksmart.com/",
+        "http://www.looksmart.com/r_search?key=find+these+words&look=&search=0"
+);
+Add("Lycos", "", 
+        "http://www.lycos.com/", 
+        "http://www.lycos.com/srch/index.html?query=find+these+words&lpv=1&loc=fromlycosmain"
+);
+Add("Magellan", "",
+        "http://magellan.excite.com/",
+        "http://www.mckinley.com/search.gw?search=find+these+words&c=web&look=magellan"
+);
+Add("MetaCrawler", "",
+        "http://www.metacrawler.com/",
+        "http://search.metacrawler.com/crawler?general=find+these+words&method=0"
+);
+Add("PDB (pdb ID)", "",
+        "http://www.rcsb.org/",   
+        "http://www.rcsb.org/pdb/cgi/resultBrowser.cgi?PDBId::PDBId=find+these+words"
+);
+Add("Weather (city)", "",
+        "http://www.weather.com/",  
+        "http://www.weather.com/cgi-bin/uncgi/zip_city_search.cgi?destination=find+these+words"
+);
+Add("WebCrawler", "",
+        "http://www.webcrawler.com/",
+        "http://www.webcrawler.com/cgi-bin/WebQuery?searchText=find+these+words"
+);
+Add("Yahoo", "",   
+        "http://www.yahoo.com/",
+        "http://search.yahoo.com/bin/search?p=find+these+words"
+);
+function SubmitSearch(form) {
+   var i, oldquery=form.query.value, newquery = "", nochar = 1;
+   for (i=0; i<oldquery.length; i++) {
+     var thischar = oldquery.charAt(i);
+     if (thischar == ' ' && nochar == 1) {newquery += newquery;}
+     else if (thischar != ' ') {  
+       newquery += thischar;
+       var nochar = 0;}
+     else if (lastchar != ' ') {
+       newquery += '+';
+        }
+     lastchar = thischar;
+   }
+   var eng = engs[1+form.service.selectedIndex];
+//alert if BLANK is chosen
+   if (eng.opts == "BLANK") {
+        alert("To search the web select a site or search engine in the drop-down menu, enter the keyword(s) you want to search, and then click on the search button.\n\nYou will be directed to the site's homepage if no keywords(s) are entered.");
+        } else {
+   		var searchsite = newquery ? eng.prequery + newquery + eng.postquery : eng.home;
+   		if (eng.opts == "SELECTED" || eng.opts == "HOME") {
+			document.location.href = searchsite;
+		} else {
+			top.location = searchsite;
+		}
+        }
+}
+function MakeForm() {
+   document.writeln('<FORM name="SearchForm" OnSubmit="SubmitSearch(this); return false;"><center>');
+   document.writeln('<INPUT value="" size=18 name="query"> ');
+   document.writeln(' <input type=submit value="Search"><br>');
+   document.writeln(' <SELECT name="service">');
+   for (i=1; i <= engs.len; i++) {
+     document.writeln("<OPTION " + engs[i].opts + "> " + engs[i].name);
+   }
+   document.writeln('</SELECT></center></FORM>');
+}
+MakeForm();
+// Special Thanks to Rob Speessen for the original form of this script
+// done hiding from old browsers -->
+</script>
+</p></center>
+<p>
+<center>
+<table border=0>
+	<td valign=center>
+		<img src="http://depts.washington.edu/bakerpg/cgi-bin/labpagecounter.cgi" height="7" hspace="2">
+	</td>
+	<td valign=center>
+		<font size=1 face=helvetica, arial, sans-serif>Visitors since February 4, 1999</font>
+	</td>
+</table>
+<font size=1 face=helvetica, arial, sans-serif>
+<a href="siteinformation.html"><b>Information about this site</b></a>
+<br>
+<a href="homepagestatistics.html"><b>Site statistics</b></a>
+</font>
+</center>
+   
+<p>
+<center>
+<font size=1 face=helvetica, arial, sans-serif><a href="http://depts.washington.edu/bakerpg" target="_top" title="Link to the Baker Lab Homepage with Frames">http://depts.washington.edu/bakerpg</a>
+</font></center>
+
+
+</body>
+</html>
